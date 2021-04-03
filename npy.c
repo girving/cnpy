@@ -1,6 +1,7 @@
 // C code to write .npy files
 
 #include "npy.h"
+#include <stdint.h>
 #include <stdlib.h>
 
 static void dtype_info(const int dtype, int* bytes, char* letter) {
